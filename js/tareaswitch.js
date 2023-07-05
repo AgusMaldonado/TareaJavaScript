@@ -2,17 +2,16 @@
 let creditos = parseFloat(prompt("Ingrese la cantidad de creditos"));
 
 switch (true) {
-  case venta < 1:
+  case creditos < 1:
     console.log("sala Arcade");
     break;
-  case venta <= 2:
+  case creditos > 2:
     console.log("sala Arcade y Consolas");
-    //acciones
     break;
-  case venta <= 3:
+  case creditos > 3:
     console.log("Sala Arcade, Consolas, Rol");
     break;
-  case venta > 4:
+  case creditos > 4:
     console.log("Sala Arcade, Consolas, Rol, Realidad virtual");
     break;
   default:
