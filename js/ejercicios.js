@@ -27,7 +27,7 @@ console.log(numero1 > numero2);
 let number1 = parseInt(prompt("Ingrese el primer valor"));
 let number2 = parseInt(prompt("Ingrese el segundo valor"));
 let number3 = parseInt(prompt("Ingrese el tercer valor"));
-console.log(Math.max(numb1, numb2, numb3));
+console.log(Math.max(number1, number2, number3));
 
 //Punto8
 let numb1 = parseInt(prompt("Ingrese el primer valor"));
